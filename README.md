@@ -23,7 +23,10 @@ source $HOME/.cargo/env
 
 
 opam init --bare
+
 make build-deps
+
 eval $(opam env)
+
 make
 
